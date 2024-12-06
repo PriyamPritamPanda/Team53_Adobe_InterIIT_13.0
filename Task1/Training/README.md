@@ -16,4 +16,4 @@ CIFAKE and Genimage
 
 ##  PatchCraft
 ### Trained on
-CIFAKE nad Genimage
+CIFAKE and Genimage
