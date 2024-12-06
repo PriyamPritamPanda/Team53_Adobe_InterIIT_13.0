@@ -1,6 +1,6 @@
-# Inferencing Qwen2-7B-VL-Instruct
+# Inferencing Qwen2-7B-VL-Instruct 
 
-This folder contains two Jupyter notebooks designed for artifact detection, classification, and explanation in images using the finetuned **Qwen-2 VL 7B Instruct** model. 
+- This folder contains two Jupyter notebooks designed for artifact detection, classification, and explanation in images using the finetuned **Qwen-2 VL 7B Instruct** model. 
 ---
 
 ## **Notebooks Overview**
@@ -44,6 +44,7 @@ This notebook emphasizes **artifact detection and detailed explanation at the in
 |------------------------------------|---------------------------------------------|---------------------------------------|
 | **Granularity**                    | Group-wise artifact classification          | Individual artifact detection         |
 | **Artifact Categories**            | 6 predefined groups                         | 70+ specific artifact types           |
+| **Inference Time**                 | ~230 seconds per image                      | ~78 seconds per image                 |
 | **Processing Mode**                | Grouped artifact processing                 | Detailed individual artifact processing |
 
 --- 
