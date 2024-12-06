@@ -1,4 +1,4 @@
-# Inferencing Qwen2-7B-VL-Instruct 
+# Inferencing Finetuned Qwen2-7B-VL-Instruct 
 
 - This folder contains two Jupyter notebooks designed for artifact detection, classification, and explanation in images using the finetuned **Qwen-2 VL 7B Instruct** model. 
 ---
