@@ -8,11 +8,14 @@ All models take 32x32 images as input and classify each as REAL or FAKE
 
 ## **DenseNet-121**
 *Initialize*: Model, optimizer, and data loaders.
+
 *Training Loop*:
 1. Train the model on batches.
 2. Validate the model after each epoch.
 3. Log metrics and update training history.
+
 *Early Stopping*: Stops training when validation performance no longer improves.
+
 *Final Evaluation*: Returns validation metrics and the complete training history.
 
 *Metrics Summary*
