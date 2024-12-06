@@ -84,4 +84,4 @@ The dataset includes image files categorized into artifact groups. Key steps:
 
 ---
 
-Our finetuned model can be found on https://www.kaggle.com/datasets/ghatotkachh/qwen7bfinetuned
+- Our Finetuned model can be found at https://www.kaggle.com/datasets/ghatotkachh/qwen7bfinetuned
