@@ -107,7 +107,7 @@ applications, simplifying integration and facilitating automation of analysis pr
 ## Report 
 A comprehensive and detailed report has been aadded to the repsitory with all the accounts of experimentation and a proper compilation of all results and observations. Refer to '53_m3_adobe.pdf'
 
-## Fianl Results
+## Final Results
 Find our final results in '53_task1.json' and '53_task2.json' files in the repository.
 
 
