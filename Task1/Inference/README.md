@@ -3,7 +3,7 @@ This folder contains the inference notebook for Task 1 of the mid-prep Inter IIT
 
 **Model Overview**
 For this task, we utilized three distinct models to classify the images:
-1. ***DenseNet-121***
+1. ***DenseNet-121***\n
    A convolutional neural network known for its compact and efficient feature extraction capabilities.
 2. ***ViT-Tiny***
    A vision transformer model that leverages self-attention mechanisms for image classification.
