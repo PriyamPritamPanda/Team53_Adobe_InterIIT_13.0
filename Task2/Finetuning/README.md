@@ -83,3 +83,5 @@ The dataset includes image files categorized into artifact groups. Key steps:
 - **Epochs**: 2  
 
 ---
+
+Our finetuned model can be found on https://www.kaggle.com/datasets/ghatotkachh/qwen7bfinetuned
