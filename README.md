@@ -34,6 +34,7 @@ After rigorous experimentation with augmenations, adversarial training and sever
 ### **Inference Pipeline**
 
 The inference pipeline employed an ensemble of three models:
+
 • **DenseNet-121**: A compact CNN architecture that uses densely connected layers to enhance feature reuse and gradient flow, making it efficient for extracting fine-grained visual features in low-resolution images.
 
 • **ViT-Tiny**: A transformer-based model that processes images as patch embeddings, leveraging self-attention to capture global context and inter-patch relationships for effective image classification.
