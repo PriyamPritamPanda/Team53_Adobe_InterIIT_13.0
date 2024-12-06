@@ -1,6 +1,8 @@
 # Finetuning Qwen2-VL-7B-Instruct
 
-This folder contains an end-to-end implementation for classifying image artifacts into predefined groups using a Hugging Face `Qwen2-VL-7B-Instruct` model. The script handles dataset preparation, feature engineering, and fine-tuning with LoRA for efficient model adaptation. 
+- This folder contains an end-to-end implementation for classifying image artifacts into predefined groups using a Hugging Face `Qwen2-VL-7B-Instruct` model. The script handles dataset preparation, feature engineering, and fine-tuning with LoRA for efficient model adaptation. 
+
+- Our Finetuned model can be found at https://www.kaggle.com/datasets/ghatotkachh/qwen7bfinetuned
 
 ---
 
@@ -84,4 +86,4 @@ The dataset includes image files categorized into artifact groups. Key steps:
 
 ---
 
-- Our Finetuned model can be found at https://www.kaggle.com/datasets/ghatotkachh/qwen7bfinetuned
+
