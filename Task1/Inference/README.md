@@ -37,6 +37,7 @@ The notebook includes the following steps:
 
 # **Output**
 The output of the inference process is a list of dictionaries as follows:
+
 [
   {
     "index": 1,
