@@ -117,6 +117,7 @@ Folder contains codes for-
 
 1. *Training*
 2. *Inference*
+
 for task 1, along with workflow and methodology explanations.
 
 **Task 2**
@@ -124,6 +125,7 @@ Folder contains files for-
 
 1. *Finetuning*
 2. *Inference*
+
 for task 2, complete with details regarding implementation
 
 
