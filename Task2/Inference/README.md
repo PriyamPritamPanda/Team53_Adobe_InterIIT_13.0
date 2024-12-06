@@ -19,6 +19,8 @@ This notebook focuses on **group-wise artifact classification and explanation**.
 - **Classification and Explanation**:
   - Detects relevant artifact categories in input images.
   - Generates localized, context-specific explanations for artifacts in each group.
+- **Inference Time**:
+  - ~230 seconds per image
 
 ---
 
@@ -32,10 +34,13 @@ This notebook emphasizes **artifact detection and detailed explanation at the in
   - Produces concise, context-specific explanations when artifacts are detected.
 - **Visualization**:
   - Annotates analyzed images with detected artifacts and their evaluations.
+- **Inference Time**:
+  - ~78 seconds per image  
 
 #### **Applications**:
 - Forensic image analysis for detecting unnatural features.
 - Detailed image dataset validation.
+
 
 ---
 
