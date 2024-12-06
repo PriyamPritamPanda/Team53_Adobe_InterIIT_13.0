@@ -30,6 +30,7 @@ CIFAKE, Genimage and Artifact
 *Dataset Preparation:*
 1. Input images are processed into batches using the custom collate_fn.
 2. Ground truth labels are also batched.
+
 *Collate Function:*
 The collate_fn function processes batches of examples into a suitable format for training:
 1. pixel_values: Stacks image tensors into a batch tensor using torch.stack().
