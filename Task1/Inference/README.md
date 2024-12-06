@@ -17,3 +17,6 @@ The following approach was used for inference:
 2. ***Ensemble***:
    An ensemble strategy was applied to combine the predictions:
    
+# **Workflow**
+
+![task1 pipeline (1)_page-0001](https://github.com/user-attachments/assets/98c88442-7f06-468e-94f8-085fc124ece1)
