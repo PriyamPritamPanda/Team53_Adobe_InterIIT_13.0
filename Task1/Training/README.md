@@ -1,4 +1,4 @@
-#  **Training for AI Generated Image Detection**
+#  **Training for AI Generated Image Detection- Adobe MidPrep InterIIT 13.0**
 ##  **Datasets**
 1. CIFAKE - https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images
 2. Artifact - https://www.kaggle.com/datasets/divyanshrastogi44/artifacts-cleaned
