@@ -1,6 +1,6 @@
 # Artifact Group Classification with Qwen2-VL-7B-Instruct
 
-This repository folder an end-to-end implementation for classifying image artifacts into predefined groups using a Hugging Face `Qwen2-VL-7B-Instruct` model. The script handles dataset preparation, feature engineering, and fine-tuning with LoRA for efficient model adaptation. 
+This folder contains an end-to-end implementation for classifying image artifacts into predefined groups using a Hugging Face `Qwen2-VL-7B-Instruct` model. The script handles dataset preparation, feature engineering, and fine-tuning with LoRA for efficient model adaptation. 
 
 ---
 
