@@ -95,15 +95,17 @@ analysis. Future work will focus on integrating additional models, expanding art
 ### **JSON Parsing**
 
 All outputs were parsed into a standardized JSON format to enable seamless integration into analysis pipelines. This approach offered several key advantages:
+
 • Easy Retrieval of Artifact-Specific Insights: The structured format allowed quick and efficient access to detailed
 information about detected artifacts, categorized according
 to the artifact taxonomy.
+
 • Consistency in Workflows: Standardized outputs ensured uniformity across visualization tools and downstream
 applications, simplifying integration and facilitating automation of analysis processes.
 
 
 ## Report 
-A comprehensive and detailed report has been aadded to the repsitory with all the accounts of experimentation and a proper compilation of all results and observations.
+A comprehensive and detailed report has been aadded to the repsitory with all the accounts of experimentation and a proper compilation of all results and observations. Refer to 
 
 
 
