@@ -35,7 +35,9 @@ After rigorous experimentation with augmenations, adversarial training and sever
 
 The inference pipeline employed an ensemble of three models:
 • **DenseNet-121**: A compact CNN architecture that uses densely connected layers to enhance feature reuse and gradient flow, making it efficient for extracting fine-grained visual features in low-resolution images.
+
 • **ViT-Tiny**: A transformer-based model that processes images as patch embeddings, leveraging self-attention to capture global context and inter-patch relationships for effective image classification.
+
 • **PatchCraft**: A texture-based classification approach that focuses on detecting inter-pixel correlation contrasts, which serve as a universal fingerprint for AI-generated images.
 (Details in the Inference Folder)
 
