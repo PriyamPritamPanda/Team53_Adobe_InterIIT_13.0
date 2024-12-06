@@ -21,7 +21,16 @@ The following approach was used for inference:
    * An ensemble strategy was applied to combine the predictions:
       * An image was classified as fake(1) if any one of the models assigned it as fake.
       * An image was classified as real(0) only if all three models assigned it as real.
-   
+
+# **Notebook Structure**
+The notebook includes the following steps:
+1. Loading the pre-trained weights for DenseNet-121, ViT-Tiny, and PatchCraft models.
+2. Loading the test dataset.
+3. Converting .png test images to .jpg.
+4. Performing predictions using each model.
+5. Applying the ensemble logic to finalize the predictions.
+6. Saving the output.
+
 # **Workflow**
 
 ![task1 pipeline (1)_page-0001](https://github.com/user-attachments/assets/98c88442-7f06-468e-94f8-085fc124ece1)
