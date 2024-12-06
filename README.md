@@ -113,6 +113,7 @@ Find our final results in '53_task1.json' and '53_task2.json' files in the repos
 ## Repository Structure
 
 **Task 1**
+
 Folder contains codes for-
 
 1. *Training*
@@ -121,6 +122,7 @@ Folder contains codes for-
 for task 1, along with workflow and methodology explanations.
 
 **Task 2**
+
 Folder contains files for-
 
 1. *Finetuning*
