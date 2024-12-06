@@ -49,3 +49,5 @@ The output of the inference process is a list of dictionaries as follows:
   },
   ...
 ]
+
+* index: Extracted from the image filename (e.g., 1 for 1.png).
