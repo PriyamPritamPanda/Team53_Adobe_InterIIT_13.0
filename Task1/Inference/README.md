@@ -51,3 +51,8 @@ The output of the inference process is a list of dictionaries as follows:
 ]
 
 * index: Extracted from the image filename (e.g., 1 for 1.png).
+
+# **State dicts of models used:**
+* Densenet-121: https://www.kaggle.com/datasets/priyampritampanda/densenet-without-v2
+* ViT-Tiny: https://www.kaggle.com/datasets/priyampritampanda/vit-tiny
+* PatchCraft: https://www.kaggle.com/datasets/priyampritampanda/patchcraft
