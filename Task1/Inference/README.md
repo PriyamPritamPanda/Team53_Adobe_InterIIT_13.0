@@ -34,3 +34,17 @@ The notebook includes the following steps:
 # **Workflow**
 
 ![task1 pipeline (1)_page-0001](https://github.com/user-attachments/assets/98c88442-7f06-468e-94f8-085fc124ece1)
+
+# **Output**
+The output of the inference process is a list of dictionaries as follows:
+[
+  {
+    "index": 1,
+    "prediction": "real"
+  },
+  {
+    "index": 2,
+    "prediction": "fake"
+  },
+  ...
+]
