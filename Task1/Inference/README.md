@@ -12,10 +12,15 @@ For this task, we utilized three distinct models to classify the images:
 
 # **Inference Strategy**
 The following approach was used for inference:
-1. ***Predictions***:
-   Each of the three models was used to infer the labels of the test images.
-2. ***Ensemble***:
-   An ensemble strategy was applied to combine the predictions:
+1. **Preprocessing**:
+   * The test images were initially provided in .png format with filenames such as 1.png, 2.png, etc.
+   * All .png images were converted to .jpg format to ensure compatibility with the models. 
+2. ***Predictions***:
+   * Each of the three models was used to infer the labels of the .jpg test images.
+3. ***Ensemble***:
+   * An ensemble strategy was applied to combine the predictions:
+      * An image was classified as fake(1) if any one of the models assigned it as fake.
+      * An image was classified as real(0) only if all three models assigned it as real.
    
 # **Workflow**
 
