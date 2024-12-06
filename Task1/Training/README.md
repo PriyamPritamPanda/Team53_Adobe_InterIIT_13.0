@@ -27,6 +27,24 @@ All models take 32x32 images as input and classify each as REAL or FAKE
 CIFAKE, Genimage and Artifact
 
 ##  **VIT tiny**
+*Dataset Preparation:*
+1. Input images are processed into batches using the custom collate_fn.
+2. Ground truth labels are also batched.
+*Collate Function:*
+The collate_fn function processes batches of examples into a suitable format for training:
+1. pixel_values: Stacks image tensors into a batch tensor using torch.stack().
+2. labels: Converts labels into a PyTorch tensor.
+3. Returns: A dictionary with keys pixel_values (image data) and labels (ground-truth labels).
+This ensures that batches are created with uniform tensor shapes during training and evaluation.
+
+*Metrics:*
+1. Accuracy Metric:
+The accuracy metric is loaded using the evaluate library.
+2. compute_metrics Function:
+Extracts predictions and labels from the evaluation output.
+Calculates predicted class labels by taking the argmax of the prediction logits.
+Computes accuracy using the evaluate library and returns it in a dictionary.
+
 ### **Trained on**
 CIFAKE and Genimage
 
